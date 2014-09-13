@@ -5,11 +5,9 @@
       (function() {
         var s = document.createElement('script');
         var t = document.getElementsByTagName('script')[0];
-
         s.type = 'text/javascript';
         s.async = true;
         s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
-
         t.parentNode.insertBefore(s, t);
       })();
       /* ]]> */
@@ -22,13 +20,13 @@
           'url': 'dni.github.io',
           'title': 'flattr',
           'description': 'freelaning'
-        }, 'element_id', 'replace');
+        }, 'flattr_button', 'replace');
       }
       /* ]]> */
     </script>
   </head>
 
   <body>
-    <div id="element_id"></div>
+    <div id="flattr_button"></div>
   </body>
 </html>
